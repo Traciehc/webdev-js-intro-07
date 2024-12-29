@@ -15,3 +15,8 @@ let remainder = returnTheRemainder(5, 4);
 console.log(remainder);
 
 
+function checkIfEven(number) { 
+return number % 2 === 0;
+}
+let isEven = checkIfEven(47);
+console.log(isEven);
