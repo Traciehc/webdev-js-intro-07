@@ -27,3 +27,9 @@ function getTheFourthElement(array) {
  
 let fourthElement = getTheFourthElement(lostNumbers); 
 console.log(fourthElement);
+
+submissionBtn.addEventListener("click", function () { 
+    remainderElement.innerHTML = returnTheRemainder(5, 4);
+    checkIfEvenElement.innerHTML = checkIfEven(47); 
+    lostNumbersElement.innerHTML = getTheFourthElement(lostNumbers);
+    });
