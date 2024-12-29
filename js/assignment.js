@@ -20,3 +20,10 @@ return number % 2 === 0;
 }
 let isEven = checkIfEven(47);
 console.log(isEven);
+
+function getTheFourthElement(array) {
+    return array[3];
+}
+ 
+let fourthElement = getTheFourthElement(lostNumbers); 
+console.log(fourthElement);
